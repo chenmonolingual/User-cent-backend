@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: '123chen'
+    url: jdbc:mysql://192.168.45.133:3306/user_master
+    type: com.alibaba.druid.pool.DruidDataSource
+  # session过期时间
+  session:
+    timeout: 86400
